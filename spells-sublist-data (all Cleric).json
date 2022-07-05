@@ -1,4 +1,5 @@
-[
+{
+	"spell": [
 	{
 		"name": "Animate Skull",
 		"source": "COFSA",
@@ -19971,3 +19972,4 @@
 		}
 	}
 ]
+}
