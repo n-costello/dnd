@@ -1,0 +1,529 @@
+{
+	"item": [
+	{
+		"name": "Fenthras (Exalted)",
+		"source": "TDCSR",
+		"bonusWeapon": "+3",
+		"__prop": "item",
+		"recharge": "restShort",
+		"page": 205,
+		"baseItem": "longbow|PHB",
+		"type": "R",
+		"rarity": "legendary",
+		"reqAttune": true,
+		"weight": 2,
+		"weaponCategory": "martial",
+		"property": [
+			"A",
+			"H",
+			"2H",
+			"Vst"
+		],
+		"range": "150/600",
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"bow": true,
+		"weapon": true,
+		"entries": [
+			"This gorgeous {@item longbow|phb} made of everbark from the Fey Realm flexes and shifts like a living entity. It is said to have been wielded by the legendary ranger {@creature Vex'ahlia|TDCSR} against great evils.",
+			{
+				"type": "entries",
+				"name": "Dormant",
+				"entries": [
+					"While Fenthras is in a dormant state, you gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with Fenthras, you can declare it an oracle shot, allowing you to experience the area around the arrow using your normal senses for 10 minutes. Once this property is used, it can't be used again until you finish a {@quickref resting|PHB|2|0|short or long rest}.",
+					"Additionally, when a creature is killed by an attack using this weapon, a six-foot-tall tree rapidly grows out of the corpse over the next minute. The tree is rooted in the ground to make the body difficult to move, but does not permanently damage the corpse or its organs."
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Awakened",
+						"entries": [
+							"When Fenthras reaches an awakened state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The weapon's bonus to attack and damage rolls increases to +2. Additionally, when you hit with an attack using this weapon, the target takes an extra {@damage 1d4} lightning damage.",
+									"When you hit with an attack using this weapon, you can declare it a bramble shot. The attack deals an extra {@damage 3d8} piercing damage, and the target must succeed on a {@dc 15} Strength {@quickref saving throws|PHB|2|1|saving throw} or become {@condition restrained} by steely brambles that burst from the arrow. A {@condition restrained} target can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the effect on itself on a success. Once this property is used, it can't be used again until you finish a {@quickref resting|PHB|2|0|short or long rest}."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Exalted",
+						"entries": [
+							"When Fenthras reaches an exalted state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The weapon's bonus to attack and damage rolls increases to +3.",
+									"The extra lightning damage dealt by attacks using the bow increases to {@dice 1d6}.",
+									"You can declare a bramble shot twice between rests, and the {@quickref saving throws|PHB|2|1|saving throw} DC increases to 17."
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"ammoType": "arrow|phb",
+		"fluff": {
+			"_itemFluff": {
+				"name": "Fenthras",
+				"source": "TDCSR"
+			}
+		},
+		"_isCopy": true,
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_fullEntries": [
+			"This gorgeous {@item longbow|phb} made of everbark from the Fey Realm flexes and shifts like a living entity. It is said to have been wielded by the legendary ranger {@creature Vex'ahlia|TDCSR} against great evils.",
+			{
+				"type": "entries",
+				"name": "Dormant",
+				"entries": [
+					"While Fenthras is in a dormant state, you gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with Fenthras, you can declare it an oracle shot, allowing you to experience the area around the arrow using your normal senses for 10 minutes. Once this property is used, it can't be used again until you finish a {@quickref resting|PHB|2|0|short or long rest}.",
+					"Additionally, when a creature is killed by an attack using this weapon, a six-foot-tall tree rapidly grows out of the corpse over the next minute. The tree is rooted in the ground to make the body difficult to move, but does not permanently damage the corpse or its organs."
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Awakened",
+						"entries": [
+							"When Fenthras reaches an awakened state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The weapon's bonus to attack and damage rolls increases to +2. Additionally, when you hit with an attack using this weapon, the target takes an extra {@damage 1d4} lightning damage.",
+									"When you hit with an attack using this weapon, you can declare it a bramble shot. The attack deals an extra {@damage 3d8} piercing damage, and the target must succeed on a {@dc 15} Strength {@quickref saving throws|PHB|2|1|saving throw} or become {@condition restrained} by steely brambles that burst from the arrow. A {@condition restrained} target can repeat the {@quickref saving throws|PHB|2|1|saving throw} at the end of each of its turns, ending the effect on itself on a success. Once this property is used, it can't be used again until you finish a {@quickref resting|PHB|2|0|short or long rest}."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Exalted",
+						"entries": [
+							"When Fenthras reaches an exalted state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The weapon's bonus to attack and damage rolls increases to +3.",
+									"The extra lightning damage dealt by attacks using the bow increases to {@dice 1d6}.",
+									"You can declare a bramble shot twice between rests, and the {@quickref saving throws|PHB|2|1|saving throw} DC increases to 17."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Range",
+					"entries": [
+						"A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "type"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Ammunition",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Vestige of Divergence",
+					"page": 200,
+					"entries": [
+						"{@note This item is a Vestige of Divergence, see {@book Tal'Dorei Treasures|TDCSR|6|Vestiges of Divergence} for more information.}"
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			}
+		],
+		"_typeListText": [
+			"martial weapon",
+			"range"
+		],
+		"_typeHtml": "weapon (<a href=\"items.html#longbow_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" data-vet-page=\"items.html\" data-vet-source=\"PHB\" data-vet-hash=\"longbow_phb\"   ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >longbow</a>), range",
+		"_subTypeHtml": "martial weapon",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "TDCSR",
+		"_fProperties": [
+			"ammunition",
+			"heavy",
+			"two-handed",
+			"vestige of divergence"
+		],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [
+			"longbow__phb"
+		],
+		"_fBaseItemAll": [
+			"longbow__phb"
+		],
+		"_fBonus": [
+			"Weapon Attack and Damage Rolls",
+			"Weapon Attack and Damage Rolls (+3)"
+		],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Plate of the Dawnmartyr (Exalted)",
+		"source": "TDCSR",
+		"bonusAc": "+3",
+		"recharge": "restLong",
+		"__prop": "item",
+		"resist": [
+			"fire"
+		],
+		"conditionImmune": [
+			"frightened"
+		],
+		"page": 208,
+		"baseItem": "plate armor|PHB",
+		"type": "HA",
+		"rarity": "legendary",
+		"reqAttune": true,
+		"weight": 65,
+		"ac": 18,
+		"strength": "15",
+		"stealth": true,
+		"property": [
+			"Vst"
+		],
+		"entries": [
+			"Beautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the {@deity The Dawnfather|Exandria|TDCSR}, when she was martyred in the Battle of Ghor Dranas in the final days of the {@book Calamity|TDCSR|2|The Calamity}. In more recent times, it was worn by {@creature Pike Trickfoot|TDCSR}, a legendary cleric of the {@deity The Everlight|Exandria|TDCSR}, while fighting against {@book the Chroma Conclave|TDCSR|2|The Chroma Conclave} and {@deity The Whispered One|Exandria|TDCSR}.",
+			{
+				"type": "entries",
+				"name": "Dormant",
+				"entries": [
+					"While the Plate of the Dawnmartyr is in a dormant state, you gain a +1 bonus to AC while wearing it. When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@damage 1d6} fire damage."
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Awakened",
+						"entries": [
+							"When the Plate of the Dawnmartyr reaches an awakened state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The armor's bonus to AC increases to +2.",
+									"You are immune to the {@condition frightened} condition.",
+									"You have resistance to fire damage.",
+									"The fire damage you deal when you rebuke an attacker increases to {@dice 2d6}."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Exalted",
+						"entries": [
+							"When the Plate of the Dawnmartyr reaches an exalted state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The armor's bonus to AC increases to +3.",
+									"When you rebuke an attacker, you can choose to deal either fire damage or radiant damage.",
+									"When you are reduced to 0 hit points, you can choose to have a blast of healing flame surround you. You regain 1 hit point and are lifted to your feet. Each enemy within 10 feet of you takes {@damage 2d6} fire damage or radiant damage (your choice). This property of the armor can't be used again until you finish a {@quickref resting|PHB|2|0|long rest}."
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"fluff": {
+			"_itemFluff": {
+				"name": "Plate of the Dawnmartyr",
+				"source": "TDCSR"
+			}
+		},
+		"_isCopy": true,
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_fullEntries": [
+			"Beautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the {@deity The Dawnfather|Exandria|TDCSR}, when she was martyred in the Battle of Ghor Dranas in the final days of the {@book Calamity|TDCSR|2|The Calamity}. In more recent times, it was worn by {@creature Pike Trickfoot|TDCSR}, a legendary cleric of the {@deity The Everlight|Exandria|TDCSR}, while fighting against {@book the Chroma Conclave|TDCSR|2|The Chroma Conclave} and {@deity The Whispered One|Exandria|TDCSR}.",
+			{
+				"type": "entries",
+				"name": "Dormant",
+				"entries": [
+					"While the Plate of the Dawnmartyr is in a dormant state, you gain a +1 bonus to AC while wearing it. When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@damage 1d6} fire damage."
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Awakened",
+						"entries": [
+							"When the Plate of the Dawnmartyr reaches an awakened state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The armor's bonus to AC increases to +2.",
+									"You are immune to the {@condition frightened} condition.",
+									"You have resistance to fire damage.",
+									"The fire damage you deal when you rebuke an attacker increases to {@dice 2d6}."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Exalted",
+						"entries": [
+							"When the Plate of the Dawnmartyr reaches an exalted state, you gain the following benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The armor's bonus to AC increases to +3.",
+									"When you rebuke an attacker, you can choose to deal either fire damage or radiant damage.",
+									"When you are reduced to 0 hit points, you can choose to have a blast of healing flame surround you. You regain 1 hit point and are lifted to your feet. Each enemy within 10 feet of you takes {@damage 2d6} fire damage or radiant damage (your choice). This property of the armor can't be used again until you finish a {@quickref resting|PHB|2|0|long rest}."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Vestige of Divergence",
+					"page": 200,
+					"entries": [
+						"{@note This item is a Vestige of Divergence, see {@book Tal'Dorei Treasures|TDCSR|6|Vestiges of Divergence} for more information.}"
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": "The wearer has disadvantage on Dexterity ({@skill Stealth}) checks.",
+				"data": {
+					"item__mergedEntryTag": "type"
+				}
+			},
+			{
+				"type": "wrapper",
+				"wrapped": "If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.",
+				"data": {
+					"item__mergedEntryTag": "type"
+				}
+			}
+		],
+		"_typeListText": [
+			"heavy armor"
+		],
+		"_typeHtml": "heavy armor (<a href=\"items.html#plate%20armor_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" data-vet-page=\"items.html\" data-vet-source=\"PHB\" data-vet-hash=\"plate%20armor_phb\"   ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >plate armor</a>)",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "TDCSR",
+		"_fProperties": [
+			"vestige of divergence"
+		],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [
+			"plate armor__phb"
+		],
+		"_fBaseItemAll": [
+			"plate armor__phb"
+		],
+		"_fBonus": [
+			"Armor Class"
+		],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Hide of the Feral Guardian (Exalted)",
+		"source": "EGW",
+		"bonusWeapon": "+3",
+		"bonusAc": "+3",
+		"__prop": "item",
+		"page": 271,
+		"baseItem": "studded leather armor|PHB",
+		"type": "LA",
+		"rarity": "legendary",
+		"reqAttune": true,
+		"weight": 13,
+		"ac": 12,
+		"entries": [
+			"It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.",
+			{
+				"type": "entries",
+				"name": "Dormant",
+				"entries": [
+					"While wearing the armor in its dormant state, you gain the following benefits:",
+					{
+						"type": "list",
+						"items": [
+							"The armor grants you a +1 bonus to AC.",
+							"While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.",
+							"As an action, you can use the armor to cast {@spell polymorph} on yourself, transforming into a {@creature giant owl} while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn."
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Awakened",
+				"entries": [
+					"When the armor reaches an awakened state, it gains the following properties:",
+					{
+						"type": "list",
+						"items": [
+							"The AC bonus of the armor increases to +2.",
+							"While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).",
+							"When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature cave bear}."
+						]
+					}
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Exalted",
+				"entries": [
+					"When the armor reaches an exalted state, it gains the following properties:",
+					{
+						"type": "list",
+						"items": [
+							"The AC bonus of the armor increases to +3.",
+							"While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).",
+							"When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature guardian wolf|EGW}."
+						]
+					}
+				]
+			}
+		],
+		"attachedSpells": [
+			"polymorph"
+		],
+		"_isCopy": true,
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"light armor"
+		],
+		"_typeHtml": "light armor (<a href=\"items.html#studded%20leather%20armor_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" data-vet-page=\"items.html\" data-vet-source=\"PHB\" data-vet-hash=\"studded%20leather%20armor_phb\"   ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >studded leather armor</a>)",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "EGW",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [
+			"studded leather armor__phb"
+		],
+		"_fBaseItemAll": [
+			"studded leather armor__phb"
+		],
+		"_fBonus": [
+			"Armor Class",
+			"Weapon Attack and Damage Rolls",
+			"Weapon Attack and Damage Rolls (+3)"
+		],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	}
+]}
