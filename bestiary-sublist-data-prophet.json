@@ -1,0 +1,357 @@
+{
+	"monster": [
+	{
+		"name": "Prophet",
+		"source": "TCEE2",
+		"page": 0,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any race"
+			]
+		},
+		"alignment": [
+			"A"
+		],
+		"ac": [
+			{
+				"ac": 17,
+				"from": [
+					"{@item half plate armor|PHB|half plate}"
+				]
+			}
+		],
+		"hp": {
+			"average": 143,
+			"formula": "22d8 + 44"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 10,
+		"dex": 15,
+		"con": 14,
+		"int": 16,
+		"wis": 20,
+		"cha": 17,
+		"save": {
+			"int": "+8",
+			"wis": "+10",
+			"cha": "+8"
+		},
+		"skill": {
+			"history": "+8",
+			"insight": "+10",
+			"investigation": "+8",
+			"medicine": "+10",
+			"perception": "+10",
+			"religion": "+15"
+		},
+		"passive": 20,
+		"immune": [
+			"necrotic",
+			"radiant"
+		],
+		"languages": [
+			"Abyssal",
+			"Celestial",
+			"Common",
+			"Infernal",
+			"and any two other"
+		],
+		"cr": "13",
+		"spellcasting": [
+			{
+				"name": "Innate Spellcasting",
+				"headerEntries": [
+					"The prophet's innate spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+				],
+				"will": [
+					"{@spell commune}",
+					"{@spell detect thoughts}",
+					"{@spell scrying}",
+					"{@spell sending}",
+					"{@spell tongues} (self only)"
+				],
+				"daily": {
+					"1e": [
+						"{@spell foresight} (self only)",
+						"{@spell legend lore}",
+						"{@spell telepathy}",
+						"{@spell true seeing} (self only)"
+					]
+				},
+				"ability": "wis",
+				"type": "spellcasting"
+			},
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"The prophet is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The prophet has the following cleric spells prepared:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell guidance}",
+							"{@spell light}",
+							"{@spell mending}",
+							"{@spell sacred flame}",
+							"{@spell thaumaturgy}"
+						]
+					},
+					"1": {
+						"slots": 4,
+						"spells": [
+							"{@spell bless}",
+							"{@spell command}",
+							"{@spell cure wounds}",
+							"{@spell guiding bolt}",
+							"{@spell sanctuary}"
+						]
+					},
+					"2": {
+						"slots": 3,
+						"spells": [
+							"{@spell calm emotions}",
+							"{@spell hold person}",
+							"{@spell lesser restoration}",
+							"{@spell spiritual weapon}"
+						]
+					},
+					"3": {
+						"slots": 3,
+						"spells": [
+							"{@spell dispel magic}",
+							"{@spell remove curse}",
+							"{@spell spirit guardians}"
+						]
+					},
+					"4": {
+						"slots": 3,
+						"spells": [
+							"{@spell banishment}",
+							"{@spell divination}",
+							"{@spell raise dead}"
+						]
+					},
+					"5": {
+						"slots": 3,
+						"spells": [
+							"{@spell flame strike}",
+							"{@spell greater restoration}",
+							"{@spell raise dead}"
+						]
+					},
+					"6": {
+						"slots": 1,
+						"spells": [
+							"{@spell forbiddance}",
+							"{@spell heal}"
+						]
+					},
+					"7": {
+						"slots": 1,
+						"spells": [
+							"{@spell conjure celestial}",
+							"{@spell divine word}"
+						]
+					},
+					"8": {
+						"slots": 1,
+						"spells": [
+							"{@spell holy aura}"
+						]
+					},
+					"9": {
+						"slots": 1,
+						"spells": [
+							"{@spell gate}"
+						]
+					}
+				},
+				"ability": "wis",
+				"type": "spellcasting"
+			}
+		],
+		"action": [
+			{
+				"name": "Mace",
+				"entries": [
+					"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 (1d6) bludgeoning damage."
+				]
+			},
+			{
+				"name": "Sacred Flame",
+				"entries": [
+					"The prophet casts sacred flame on a creature it can see within 60 feet. The target must succeed on a {@dc 18} Dexterity saving throw or else take 18 (4d8) radiant damage. The target gains no benefit from cover for this saving throw."
+				]
+			}
+		],
+		"legendary": [
+			{
+				"name": "Attack",
+				"entries": [
+					"The prophet makes one attack with its mace or casts sacred flame."
+				]
+			},
+			{
+				"name": "Cast Spell (Costs 2 Actions)",
+				"entries": [
+					"The prophet casts a spell of 1st, 2nd, or 3rd level."
+				]
+			},
+			{
+				"name": "Prophesy (Costs 3 Actions)",
+				"entries": [
+					"The prophet casts foresight on itself. It cannot do this if it has already cast foresight today"
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"The greatest and most powerful of mortal priests, prophets are directed by the gods to lead their peoples to salvation (or whatever other fate a god might have in store). They often travel and are rarely known to stay in one spot for long, although they may have a hometown or other base of operations they frequently return to. Good prophets are usually well-connected and controversial figures, as benevolent miracle workers tend to be. Evil prophets are rare, but amass zealous followings as they travel the world in the name of darkness and tyranny."
+			]
+		},
+		"tokenUrl": "https://imgur.com/iD0D58s.png",
+		"languageTags": [
+			"AB",
+			"C",
+			"CE",
+			"I"
+		],
+		"spellcastingTags": [
+			"CC",
+			"I"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflictSpell": [
+			"blinded",
+			"deafened",
+			"incapacitated",
+			"paralyzed",
+			"prone",
+			"stunned"
+		],
+		"damageTagsSpell": [
+			"F",
+			"N",
+			"O",
+			"R"
+		],
+		"__prop": "monster",
+		"_pTypes": {
+			"type": "humanoid",
+			"tags": [
+				"any race"
+			],
+			"asText": "humanoid (any race)"
+		},
+		"_pCr": "13",
+		"_fCr": [
+			"13"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 30,
+		"_fAc": [
+			17
+		],
+		"_fHp": 143,
+		"_fAlign": [
+			"A"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [
+			"necrotic",
+			"radiant"
+		],
+		"_fCondImm": [],
+		"_fSave": [
+			"int",
+			"wis",
+			"cha"
+		],
+		"_fSkill": [
+			"history",
+			"insight",
+			"investigation",
+			"medicine",
+			"perception",
+			"religion"
+		],
+		"_fSources": "TCEE2",
+		"_fPassive": 20,
+		"_fMisc": [
+			"Legendary",
+			"Spellcaster",
+			"Spellcaster, Wisdom",
+			"Spellcaster, Wisdom",
+			"MW",
+			"Has Token",
+			"AC from Item(s)"
+		],
+		"_fSpellSlotLevels": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		],
+		"_fSpellsKnown": [
+			"commune|phb",
+			"detect thoughts|phb",
+			"scrying|phb",
+			"sending|phb",
+			"tongues|phb",
+			"foresight|phb",
+			"legend lore|phb",
+			"telepathy|phb",
+			"true seeing|phb",
+			"guidance|phb",
+			"light|phb",
+			"mending|phb",
+			"sacred flame|phb",
+			"thaumaturgy|phb",
+			"bless|phb",
+			"command|phb",
+			"cure wounds|phb",
+			"guiding bolt|phb",
+			"sanctuary|phb",
+			"calm emotions|phb",
+			"hold person|phb",
+			"lesser restoration|phb",
+			"spiritual weapon|phb",
+			"dispel magic|phb",
+			"remove curse|phb",
+			"spirit guardians|phb",
+			"banishment|phb",
+			"divination|phb",
+			"raise dead|phb",
+			"flame strike|phb",
+			"greater restoration|phb",
+			"forbiddance|phb",
+			"heal|phb",
+			"conjure celestial|phb",
+			"divine word|phb",
+			"holy aura|phb",
+			"gate|phb"
+		],
+		"_fLanguageTags": [
+			"AB",
+			"C",
+			"CE",
+			"I"
+		]
+	}
+]}
