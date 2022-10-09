@@ -1,0 +1,189 @@
+{
+	"monster": [
+	{
+		"name": "Adamantine Golem",
+		"source": "TCEE2",
+		"page": 0,
+		"size": [
+			"H"
+		],
+		"type": "construct",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 23,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 500,
+			"formula": "40d12 + 240"
+		},
+		"speed": {
+			"walk": 20
+		},
+		"str": 26,
+		"dex": 9,
+		"con": 22,
+		"int": 3,
+		"wis": 11,
+		"cha": 2,
+		"senses": [
+			"darkvision 120 ft.",
+			"languages understands the languages of its creator but can't speak."
+		],
+		"passive": 10,
+		"immune": [
+			"cold",
+			"fire",
+			"poison",
+			"psychic",
+			{
+				"immune": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"note": "from nonmagical attacks that aren't adamantine.",
+				"cond": true
+			}
+		],
+		"conditionImmune": [
+			"charmed",
+			"exhaustion",
+			"frightened",
+			"paralyzed",
+			"petrified",
+			"poisoned"
+		],
+		"cr": "25",
+		"trait": [
+			{
+				"name": "Adamantine Plating",
+				"entries": [
+					"Any critical hit against the golem becomes a normal hit."
+				]
+			},
+			{
+				"name": "Immutable Form",
+				"entries": [
+					"The golem is immune to any spell or effect that would alter its form."
+				]
+			},
+			{
+				"name": "Limited Magic Immunity",
+				"entries": [
+					"The golem can't be affected or detected by spells of 6th level or lower. It has advantage on saving throws against all other spells and magical effects."
+				]
+			},
+			{
+				"name": "Magic Weapons",
+				"entries": [
+					"The golem's weapon attacks are magical."
+				]
+			},
+			{
+				"name": "Siege Monster",
+				"entries": [
+					"The golem deals double damage to objects and structures."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The golem makes two slam attacks."
+				]
+			},
+			{
+				"name": "Slam",
+				"entries": [
+					"{@atk mw} {@hit 16} to hit, reach 5ft., one target. {@h}46 (7d10 + 8) bludgeoning damage."
+				]
+			},
+			{
+				"name": "Trample",
+				"entries": [
+					"The golem moves up to 40 feet in a straight line. All creatures in this line must succeed on a {@dc 24} Dexterity saving throw or take 62 (12d8 + 8) bludgeoning damage."
+				]
+			}
+		],
+		"fluff": {
+			"entries": [
+				"The rarest and most expensive to craft of all golems, the adamantine golem is used as a guard for priceless artifacts. Due to it's immunity to most magics the golem serves as a great defense against arcane and weaponry alike. Truly a behemoth of size and power to face an adamantine golem is to face an unmoving wall and unstoppable weapon in one outstanding force. While the adamantine golem doesn't contain any of the magical powers of other golems the sheer strength and brute force the golem possesses poses just as great of a threat."
+			]
+		},
+		"tokenUrl": "https://imgur.com/rk2lPzh.png",
+		"traitTags": [
+			"Immutable Form",
+			"Magic Weapons",
+			"Siege Monster"
+		],
+		"senseTags": [
+			"SD"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"__prop": "monster",
+		"_pTypes": {
+			"type": "construct",
+			"tags": [],
+			"asText": "construct"
+		},
+		"_pCr": "25",
+		"_fCr": [
+			"25"
+		],
+		"_fSpeedType": [
+			"walk"
+		],
+		"_fSpeed": 20,
+		"_fAc": [
+			23
+		],
+		"_fHp": 500,
+		"_fAlign": [
+			"U"
+		],
+		"_fVuln": [],
+		"_fRes": [],
+		"_fImm": [
+			"cold",
+			"fire",
+			"poison",
+			"psychic",
+			"bludgeoning (Conditional)",
+			"piercing (Conditional)",
+			"slashing (Conditional)"
+		],
+		"_fCondImm": [
+			"charmed",
+			"exhaustion",
+			"frightened",
+			"paralyzed",
+			"petrified",
+			"poisoned"
+		],
+		"_fSave": [],
+		"_fSkill": [],
+		"_fSources": "TCEE2",
+		"_fPassive": 10,
+		"_fMisc": [
+			"MW",
+			"Has Token",
+			"AC from Natural Armor"
+		],
+		"_fLanguageTags": [
+			"None"
+		]
+	}
+]}
