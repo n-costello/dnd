@@ -1,4 +1,5 @@
-[
+{
+	"spell": [
 	{
 		"name": "Aura of Vitality",
 		"source": "PHB",
@@ -11479,3 +11480,4 @@
 		]
 	}
 ]
+}
