@@ -1,0 +1,2780 @@
+{
+	"siteVersion": "1.145.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheDraconomicon",
+				"abbreviation": "TD",
+				"full": "The Draconomicon",
+				"url": "https://www.dmsguild.com/product/367945/The-Draconomicon",
+				"authors": [
+					"QL Games"
+				],
+				"convertedBy": [
+					"ryves"
+				]
+			}
+		],
+		"dateAdded": 1639797880,
+		"dateLastModified": 1639797880
+	},
+	"spell": [
+		{
+			"name": "Antimagic Ray",
+			"source": "TheDraconomicon",
+			"page": 64,
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of powdered iron or iron filings"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You shoot a beam of silvery light at a creature or object you can see within range, which must succeed on a Charisma saving throw or be cursed with antimagic for 1 minute. If a creature is cursed in this way, this spell also affects all objects it is wearing or carrying while they are being worn or carried by the creature.",
+				"A creature cursed in this way cannot activate or be affected by any magic item it is carrying or wearing. It also cannot cast spells or make other magical effects, but it can be unwillingly subjected to spells and other magical effects.",
+				"An object cursed in this way cannot produce any magical effects for the duration.",
+				"The target of this spell can repeat the Charisma saving throw at the end of each of its turns, ending the effect on a success."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Animated Breath",
+			"source": "TheDraconomicon",
+			"page": 64,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cube",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You breathe out a living blast of elemental energy in a 15-foot cube originating from you. This animated breath is a construct servant that obeys your verbal commands (no action required by you) and is friendly to you and your allies. It shares your initiative count and takes its turns immediately after you. It disappears at the end of the spell or if it is reduced to 0 hit points."
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Burning Blood",
+			"source": "TheDraconomicon",
+			"page": 64,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bandage"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration of the spell, any time you take bludgeoning, piercing, or slashing damage, you spray harmful fluids on all creatures within 5 feet. Each creature in the area must succeed on a Dexterity saving throw, or else take {@damage 1d6} acid, cold, fire, lightning, poison, or thunder damage (your choice when you cast the spell).",
+				"When you take damage triggering this effect, you roll a Constitution saving throw to maintain concentration after the effect is triggered."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Calm",
+			"source": "TheDraconomicon",
+			"page": 65,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cross-shaped medallion strung on a small ribbon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You create a mental barricade within a willing creature that you touch. Until the spell ends, the creature is immune to being {@condition frightened}."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chamber of Vulnerability",
+			"source": "TheDraconomicon",
+			"page": 65,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "the tooth of an ancient dragon worth at least 1,000 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You ward a cube up to 30 feet on a side, centered on a point you can see within range, with powerful weakening magic. Choose one of the following damage types: acid, cold, fire, lightning, thunder, or poison. Effects that deal that type of damage deal double damage within the cube."
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"thunder"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cold Curtain",
+			"source": "TheDraconomicon",
+			"page": 65,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ice cube"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"trigger",
+						"dispel"
+					]
+				}
+			],
+			"entries": [
+				"You imbue a 20-foot cube centered on a point you can see within range with life-draining magic. When a creature first enters the space or starts its turn in the area, it must succeed on a Constitution saving throw or take {@damage 1d6} cold damage and have its maximum hit points reduced by the same amount. A creature whose maximum hit points is reduced to 0 dies. Once the spell has drained maximum hit points ten times, it ends.",
+				"A creature can only recover these lost maximum hit points by spending at least 7 days doing the Recuperating downtime activity, or by a greater restoration spell or similar magic.",
+				"When you cast the spell, you can designate creatures that it has no effect on, such as your servants or welcome guests."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 5th-level spell slot or higher, the spell can drain maximum hit points an additional two times for every spell slot above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Compel Breath",
+			"source": "TheDraconomicon",
+			"page": 65,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature you can see within range that has a Breath Weapon action or similar feature. That creature must succeed on a Wisdom saving throw, or else immediately use its breath weapon. It can choose which direction it uses its breath weapon in.",
+				"If the target does not have a breath weapon, or if it cannot use it (such as if the creature is waiting for the trait to recharge), the spell fails."
+			],
+			"abilityCheck": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Death Dragon",
+			"source": "TheDraconomicon",
+			"page": 65,
+			"level": 6,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of a broken dracolich phylactery, worth at least 100 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You shroud yourself with the departed spirit of a powerful dracolich. For the duration of the spell, you gain the following benefits:",
+				"• You have resistance to necrotic damage and immunity to poison.",
+				"• You have advantage on saving throws against the {@condition charmed}, {@condition frightened}, and {@condition paralyzed} conditions, as well as against {@condition exhaustion}.",
+				"• You gain 30 temporary hit points.",
+				"• You gain a +2 bonus to your AC.",
+				"• As a bonus action, you can make a melee spell attack against a creature you can reach. On a hit, the target takes {@damage 5d4} necrotic damage and {@damage 5d4} slashing damage.",
+				"• As an action, you can exhale a breath of frightening gas. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or become {@condition frightened} of you for the duration. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+			],
+			"damageInflict": [
+				"necrotic",
+				"slashing"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"miscTags": [
+				"THP",
+				"MAC"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Detect Dragon",
+			"source": "TheDraconomicon",
+			"page": 66,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a coin worth at least 1gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"In a burst of magical detection, you determine whether there are any dragons within 120 feet of you. You detect the quantity and kind of every dragon within range, even dragons shapeshifted as other creatures, but not the location. You do not detect dragons under the effects of a nondetection spell or similar magic."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 5th level or higher, the radius increases to 1 mile."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Disorienting Portal",
+			"source": "TheDraconomicon",
+			"page": 66,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a key that fits no lock"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a portal within a doorway or other opening up to 10 feet on a side to a teleportation circle you know the sigil sequence of. A creature or object that passes through this portal must succeed on a Charisma saving throw or be {@condition stunned} until the end of its next turn and be teleported to the teleportation circle. As an action within 1 minute after passing through the portal, the teleported creature can choose to instantly return.",
+				"When you cast this spell, you can choose to make it hidden or obvious. If you choose obvious, any creature who looks at the opening can see a hazy image of the destination and can tell it is a magical portal. If you choose hidden, it requires a successful Perception check against your spell save DC to determine that there is a portal there, in what otherwise appears as a normal opening.",
+				"If the opening is blocked, such as by closing a door in a door frame, creatures cannot depart from the portal, but creatures transported to the teleportation circle can still return."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot higher than 6th level, the duration increases. Using a 7th-level slot increases the duration to 1 day. Using an 8th-level slot increases it to 30 days. Using a 9th-level slot increases it to an indefinite period, until dispelled or until you end it as an action."
+					]
+				}
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Draconic Might",
+			"source": "TheDraconomicon",
+			"page": 66,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature and empower it with the resilience of dragonkind. For the duration, the creature has a +5 bonus to Strength-, Dexterity-, and Constitution-based saving throws and ability checks. It also is immune to magical sleep and the {@condition paralyzed} condition."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dracorage",
+			"source": "TheDraconomicon",
+			"page": 66,
+			"level": 9,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A faint white mist fills a 60-foot-radius sphere centered on a space you can see within range. The area becomes lightly obscured for the duration, and each dragon within the area must make an Intelligence saving throw. On a failed save, the dragon’s Intelligence score is reduced to 2 for the duration of the spell, and the dragon becomes hostile and violent towards all other creatures. On a successful save, the dragon is unaffected."
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon Ally",
+			"source": "TheDraconomicon",
+			"page": 66,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a coinpurse containing 500 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You summon an elemental spirit that takes the form of a dragon (your choice of which kind) with a challenge rating equal to or lower than 6. It appears in an unoccupied space that you can see within range. The dragon is also considered an elemental, and it disappears when it drops to 0 hit points or when the spell ends.",
+				"The summoned dragon is friendly to you and your companions. It rolls its own initiative and takes its own turns, but obeys any verbal commands that you issue to it (no action required by you).",
+				"The DM has the dragon’s statistics."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using an 8th-level slot or higher, the summoned spirit can instead take the form of an adult dragon (your choice of which type)."
+					]
+				}
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon Blight",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small chunk of phosphorous"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a 20-foot-radius sphere of phosphorescent fog of withering magic centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until dispersed by a strong wind, ending the spell. Its area is lightly obscured and sheds dim light for 5 feet.",
+				"Whenever a creature enters the spell’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@damage 5d8} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"Dragons, yuan-ti, and other reptilian creatures make their saving throw against this spell with disadvantage, and the spell deals maximum damage to such a creature."
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragonsight",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a dragon scale carved in the shape of an eye"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You gain darkvision for a radius of 120 feet and blindsight for a radius of 60 feet for the duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragon's Breath",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"otherSources": [
+				{
+					"source": "XGE",
+					"page": 154
+				}
+			],
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a hot pepper"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@damage 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST",
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dragonward",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"level": 9,
+			"school": "A",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "at least 1,000 gold pieces, which the spell consumes",
+					"consume": true,
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You ward a 1-mile-radius sphere, centered on a point you can see within range, against dragons. Dragons can’t enter the area. If a dragon is already in the area when you cast the spell, the spell fails.",
+				"If you cast this spell in the same place every day for a year, it becomes permanent."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Easy Passage",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a shoehorn"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a slight dimensional warp within a corridor, which expands to accommodate creatures too large to normally fit comfortably. Choose a line up to 5 feet wide and 30 feet long, originating from yourself. Creatures in that area that would normally have to squeeze to fit no longer have to squeeze, and creatures that are normally one size too large to squeeze can now squeeze to fit. If such a creature is in the passage when the spell ends, it is harmlessly ejected into the nearest unoccupied space that it can fit in.",
+				"The spell creates no instability in a structure",
+				"surrounding it."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 5th level or higher, the length of the line increases by 30 feet for every slot above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Immunity",
+			"source": "TheDraconomicon",
+			"page": 67,
+			"level": 8,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a fire opal worth at least 100 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"Touch a creature and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The creature is immune to the selected damage type for the duration.Touch a creature and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The creature is immune to the selected damage type for the duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Entice Gift",
+			"source": "TheDraconomicon",
+			"page": 68,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You point at a creature you can see within range and whisper a tangle of archaic words. That creature must make a Wisdom saving throw. On a failed save, the creature is {@condition charmed} by you until the end of your next turn. While {@condition charmed} in this way, it can do nothing but move towards you in a safe manner. While the affected creature is within 5 feet of you, it offers you any objects it is holding. You can use your reaction to remove such objects from the creature’s grasp"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Euphoria",
+			"source": "TheDraconomicon",
+			"page": 68,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of dandelion fluff"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You exhale a puff of euphoric gas at one creature within range. The target must succeed on a Wisdom saving throw or it cannot take reactions and must roll a {@dice d6} at the start of each of its turns to determine its behavior during the turn.",
+				"1 - 4. The target takes no action or bonus action and uses all of its movement to move in a random direction.",
+				"5 - 6. The target doesn’t move, and the only thing it can do on its turn is make a Wisdom saving throw, ending the effect on a success."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Fell the Greatest Foe",
+			"source": "TheDraconomicon",
+			"page": 68,
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You bolster the mind of a willing creature you can see within range to understand the weaknesses of the most formidable of enemies. Once per turn, that creature can deal an additional {@damage 1d6} damage with a weapon attack. If the target of the attack is Large, the additional damage increases to {@dice 2d6}. If the target is Huge, the additional damage increases to {@dice 3d6}. If the target is Gargantuan, the additional damage increases to {@dice 4d6}."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 6th-level spell slot or higher, the additional damage increases by {@dice 1d6} for every two levels above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Find Humanoid Familiar",
+			"source": "TheDraconomicon",
+			"page": 68,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "100 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"consume": true,
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of a familiar, a spirit that takes a goblinoid or reptilian humanoid form you choose: bugbear, commoner, goblin, hobgoblin, kobold, lizardfolk, or orc. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a dragon instead of a humanoid.",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.",
+				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.",
+				"While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.",
+				"As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+				"You can’t have more than one familiar at a time, including ones cast by the find familiar spell. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form from the above list."
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Find the Gap",
+			"source": "TheDraconomicon",
+			"page": 68,
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You magically discern the movement patterns and armor weaknesses of your enemy. A creature of your choice within range must succeed on a Wisdom saving throw or have an Armor Class of 10 against your attacks until the end of your turn."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Firetrail",
+			"source": "TheDraconomicon",
+			"page": 69,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Disappearing in a puff of smoke, you teleport horizontally to an unoccupied space you can see within 30 feet. Small embers fall from a 5-foot wide straight line between where you teleported from and teleported to. These embers fall 30 feet per round. A creature that would be touched by these embers must succeed on a Dexterity saving throw or take {@damage 4d8} fire damage. Flammable, nonmagical structures and objects that aren’t being worn or carried that are touched by the embers catch fire. Once a 5-foot square section of embers have come in contact with a creature, object, or structure, it disappears."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 4th-level spell slot or higher, the damage increases by {@dice 1d8} for each slot above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Gem Tracer",
+			"source": "TheDraconomicon",
+			"page": 69,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "any gem worth at least 100 gp",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 7
+					}
+				}
+			],
+			"entries": [
+				"By pressing the gem used to cast this spell against an object, you enchant the gem to magically track it. As an action, you can speak a command word to the gem while holding it and know where the tracked object is and whether it is being worn or carried by a creature, but you do not learn the identity of that creature. This spell functions at any distance, as long as you are on the same plane of existence.",
+				"If the object is being worn or carried by a creature you cast the scrying spell on, that creature has disadvantage on its saving throw against the spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Globular Hoard",
+			"source": "TheDraconomicon",
+			"page": 69,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bottle of glue"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"entries": [
+				"You magically cement a pile of objects together. Choose a 5 foot cube within range. All objects within that cube that are touching each other, that aren’t being worn or carried, magically fasten themselves together. These objects effectively become one very large, very heavy object. They do not glue themselves to any structures, such as floors or walls.",
+				"To remove an object from the pile without picking up the pile as a whole, a creature can attempt an Athletics check against your spell save DC as an action. On a success, the enchantment ends for that object and can be removed. On a failure, nothing happens.",
+				"You can dismiss the effect as an action. If someone casts this spell on an object under the effects of this spell, the first casting ends and the second casting fails."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 2nd level or higher, the cube increases by up to 5 feet on a side for every level above 1st. For example, casting this spell using a 3rd level spell slot allows you to create this effect in a cube between 5 and 15 feet on a side."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcererr",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hide from Dragons",
+			"source": "TheDraconomicon",
+			"page": 69,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a pickled dragon eye"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You ward up to three willing creatures you can see within range from the detection of dragons. Dragons cannot see, hear, or smell the warded creature, even with blindsense. Dragons act as though the warded creature is not there.",
+				"If a warded creature touches a dragon, makes an attack, or casts a spell, the spell ends for all recipients."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 4th-level slot or higher, you can target one additional creature for every level above 3rd. When cast using a 6th-level slot or higher, the duration is instead Concentration, up to 1 hour."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "King-Killer Shield",
+			"source": "TheDraconomicon",
+			"page": 70,
+			"level": 7,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast this spell, choose up to 3 willing creatures you can see within range to protect with this spell. Until the spell ends, whenever a protected creature makes an Intelligence, Wisdom, or Charisma saving throw, it can treat any roll of 14 or lower on the die as a 15. If a protected creature is subjected to an effect that allows it to make such a saving throw to take only half damage, it instead takes no damage if it succeeds and only half damage if it fails."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using an 8th-level slot or higher, you can target two additional creatures for every level above 7th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Illusory Dragon",
+			"source": "TheDraconomicon",
+			"page": 69,
+			"otherSources": [
+				{
+					"source": "XGE",
+					"page": 157
+				}
+			],
+			"level": 8,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space, as if it were a creature.",
+				"When the illusion appears, any of your enemies that can see it must succeed on a Wisdom saving throw or become {@condition frightened} of it for 1 minute. If a {@condition frightened} creature ends its turn in a location where it doesn't have line of sight to the illusion, it can repeat the saving throw, ending the effect on itself on a success.",
+				"As a bonus action on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: acid, cold, fire, lightning, necrotic, or poison. Each creature in the cone must make an Intelligence saving throw, taking {@damage 7d6} damage of the chosen damage type on a failed save, or half as much damage on a successful one.",
+				"The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically, it succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath."
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"poison"
+			],
+			"savingThrow": [
+				"wisdom",
+				"intelligence"
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Light of Xymor",
+			"source": "TheDraconomicon",
+			"page": 70,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a metallic dragon scale"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Channeling the power of the dragon god Bahamut (also known as Xymor), you emit a 30-foot-radius sphere of bright light, shedding dim light for an additional 30 feet beyond that. A dragon creature can’t willingly enter the light unless it succeeds on a Wisdom saving throw. When a dragon enters the spell’s area for the first time on a turn or starts its turn there, it takes {@damage 2d6} radiant damage.",
+				"If you move so that an affected creature is forced to enter the light, the spell ends. If you cast the spell with an affected creature already within the sphere, the spell fails.",
+				"If any of this spell’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using an 8th-level slot or higher, you can target two additional creatures for every level above 7th."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Miser's Envy",
+			"source": "TheDraconomicon",
+			"page": 70,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an empty coinpurse"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a creature and object you can see within range. The creature must succeed on a Wisdom saving throw or be overcome with passionate desire to obtain the object. It must spend its action and movement on each turn trying to get the object, even attempting acts that are dangerous to itself, but not suicidal. The creature cannot willingly move farther away from the object. The creature can repeat this saving throw at the end of each of its turns, ending the effect on a success.",
+				"Dragons have disadvantage on saving throws against this spell."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Phantasmal Thief",
+			"source": "TheDraconomicon",
+			"page": 70,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a spool of green thread"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell creates an {@condition invisible}, mindless, shapeless, Medium force that can pilfer items at your command until the spell ends. When this thief grabs an object that isn’t being worn or carried by something other than itself, that object turns {@condition invisible}. It can only hold one object at a time, weighing up to 20 times your spellcasting ability modifier (minimum of 20 pounds).",
+				"The thief’s Dexterity score is equal to your spellcasting ability score. It is proficient in Acrobatics and Sleight of Hand. It can attempt to wrestle an object out of a creature’s grasp. That creature must succeed on a Strength or Dexterity saving throw (creature’s choice) against your spell save DC, or else the thief takes the item. It can also attempt a Dexterity (Sleight of Hand) to pickpocket or steal items.",
+				"The thief has a speed of 30 feet, an AC equal to your spell save DC, 1 hit point, and immunity to poison and psychic damage. It cannot make any meaningful attacks. As an action, you can mentally command the servant to move up to 30 feet and take the Dash or Use an Object action. If the thief is reduced to 0 hit points, the spell immediately ends and any objects it is holding are dropped."
+			],
+			"savingThrow": [
+				"strength",
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Razorfangs",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration of the spell, your melee attacks score a critical hit on a roll of 19 or 20."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Revelation",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 6,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "dandelion fluff and rare herbs worth at least 50 gp, which are consumed by the spell",
+					"consume": true,
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You imbue an area with truth and banish deception. Choose a 20-foot-radius sphere centered on a point you can see within range. Creatures perceive the original form of shapechangers (or creatures that are transformed by magic) within the area, and can discern any illusions in the area as illusions. Deception checks within the area are made with disadvantage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 7th level, the duration increases to 1 day. When you cast it using a slot of 8th level, the duration increases to 30 days. When you cast it using a slot of 9th level, the spell lasts until dispelled."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sentinel Eye",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You conjure a spectral, glowing eyeball in an unoccupied space that you can see within range. The eye keeps watch over everything that it can see within 120 feet of its conjuration point, and cannot move. If you leave the area, the spell ends early.",
+				"The eye has truesight out to a range of 120 feet. It is a six-inch translucent orb that sheds dim light for a 5-foot radius. Sneaking past the eye requires a successful Dexterity (Stealth) check with a DC equal to your spell save DC.",
+				"If the eye detects a creature that is hostile to you or your allies within the area, it alerts you with a ping in your mind. This ping awakens you if you are sleeping."
+			],
+			"abilityCheck": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Shield of Warding",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a shield worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You enchant a nonmagical shield you are holding with a greater measure of protection. For the duration of this spell, while a creature is holding this shield it has a +1 bonus to AC and advantage on Dexterity saving throws."
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Spell Resistance",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a wooden wand"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature, which has advantage on saving throws against spells for the duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Threesteel",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a weapon worth at least 1 cp, which has the Thrown property",
+					"cost": 1
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create three illusory duplicates of the weapon used as this spell’s material component, which you throw at up to 3 creatures of your choice you can see within range. Each creature must succeed on an Intelligence saving throw or take {@damage 3d4} bludgeoning, piercing, or slashing damage (whichever is appropriate for the material component weapon).",
+				"If you throw multiple illusory weapons at one creature, that creature must make a separate saving throw for each weapon."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 3rd-level spell slot or higher, each weapon deals an additional {@damage 1d4} damage for every level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Venomdust",
+			"source": "TheDraconomicon",
+			"page": 71,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rattlesnake's rattle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 30
+					}
+				}
+			],
+			"entries": [
+				"You cover an object within range that is up to 1 foot on a side and isn’t being worn or carried with a fine, poisonous powder. This powerful poison activates by touch and passes through any nonmagical clothing or armor. A creature who touches this object must make a Constitution saving throw, taking {@damage 2d10} poison damage on a failed save, or half that on a successful one. After a creature attempts a saving throw against this poison, the poison disappears. It also disappears after 30 days, if the caster dispels it as an action while within 5 feet, or if it is subject to a strong wind.",
+				"The dust is nearly imperceptible to most creatures, even with careful observation. A creature who succeeds on a Wisdom (Perception) check against your spell save DC can tell that the object is covered with a fine, dangerous dust. The creature doesn’t necessarily know that the dust is poisonous or that it was created by this spell.",
+				"You are immune to this dust and do not have to make a saving throw when you touch the target object.",
+				"Spellcasting dragons of all types often protect their valuables (or even doorknobs) with a venomdust spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 2nd-level spell slot or higher, its damage increases by {@dice 1d10} for every slot higher than 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Voice of the Dragon",
+			"source": "TheDraconomicon",
+			"page": 72,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a willing creature within range. For the duration, that creature is filled with awe-inspiring draconic spirits, and can add a +10 to any Deception, Intimidation, or Persuasion checks it makes. It also becomes fluent in spoken Draconic for the duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Vulnerability",
+			"source": "TheDraconomicon",
+			"page": 72,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a golden wedge worth at least 100 gp",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a creature you can see within range, which must succeed on a Wisdom saving throw or else be cursed until the start of your next turn. A creature cursed in this way is vulnerable to all damage it is not normally immune or resistant to."
+			],
+			"abilityCheck": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ward of the True Name",
+			"source": "TheDraconomicon",
+			"page": 72,
+			"level": 9,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pile of pearl dust, worth at least 1,000 gp, which is consumed by the spell",
+					"consume": true,
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel",
+						"trigger"
+					]
+				}
+			],
+			"entries": [
+				"You protect your identity with eldritch forces. If anyone uses magic spells or items to inquire about you while on the plane of existence you cast this spell on, such as by the scrying, commune, or legend lore spells, you instantly become aware of it. This wakes you from nonmagical sleep, but does not interrupt a short or long rest. The spell then ends.",
+				"You learn the spell or item that was used and who activated it. You do not learn where they activated it, what they were asking, what they are planning to do with the information, or whether they are hostile, indifferent, or friendly toward you.",
+				"If you have multiple instances of this spell cast on one plane at a time when this spell would be triggered, the oldest casting of the spell triggers and the others are unaffected."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wings of Air",
+			"source": "TheDraconomicon",
+			"page": 72,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small piece of dragon leather"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Large, ferocious dragon wings instantaneously burst from your back, tearing any nonmagical clothing or armor that would cover them. You gain a flying speed of 120 feet for the duration. The wings gently fold into your back at the end of the spell, or if you dismiss them early as an action.",
+				"For the duration, you have advantage on Dexterity saving throws and on Dexterity (Acrobatics) checks while airborne.",
+				"When the spell ends, you fall if you are still aloft, unless you can stop the fall."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
