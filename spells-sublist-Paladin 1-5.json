@@ -1,0 +1,270 @@
+{
+	"fileType": "spells-sublist",
+	"siteVersion": "1.179.1",
+	"name": "Paladin 1-5",
+	"saveId": "258705f7-7742-4148-baa9-7a8167d0b96a",
+	"items": [
+		{
+			"h": "bless_phb"
+		},
+		{
+			"h": "ceremony_xge"
+		},
+		{
+			"h": "command_phb"
+		},
+		{
+			"h": "compelled%20duel_phb"
+		},
+		{
+			"h": "cure%20wounds_phb"
+		},
+		{
+			"h": "defiant%20smite_cofsa"
+		},
+		{
+			"h": "defy%20ruin_cofsa"
+		},
+		{
+			"h": "detect%20evil%20and%20good_phb"
+		},
+		{
+			"h": "detect%20magic_phb"
+		},
+		{
+			"h": "detect%20poison%20and%20disease_phb"
+		},
+		{
+			"h": "divine%20favor_phb"
+		},
+		{
+			"h": "heroism_phb"
+		},
+		{
+			"h": "protection%20from%20evil%20and%20good_phb"
+		},
+		{
+			"h": "purify%20food%20and%20drink_phb"
+		},
+		{
+			"h": "searing%20smite_phb"
+		},
+		{
+			"h": "shield%20of%20faith_phb"
+		},
+		{
+			"h": "thunderous%20smite_phb"
+		},
+		{
+			"h": "wrathful%20smite_phb"
+		},
+		{
+			"h": "aid_phb"
+		},
+		{
+			"h": "bond%20of%20the%20dragonlords_ootdlpg"
+		},
+		{
+			"h": "branding%20smite_phb"
+		},
+		{
+			"h": "dark%20secret_cofsa"
+		},
+		{
+			"h": "find%20steed_phb"
+		},
+		{
+			"h": "gentle%20repose_phb"
+		},
+		{
+			"h": "ichorous%20smite_dapc"
+		},
+		{
+			"h": "lesser%20restoration_phb"
+		},
+		{
+			"h": "locate%20object_phb"
+		},
+		{
+			"h": "magic%20weapon_phb"
+		},
+		{
+			"h": "prayer%20of%20healing_phb"
+		},
+		{
+			"h": "protection%20from%20poison_phb"
+		},
+		{
+			"h": "shield%20of%20warding_thedraconomicon"
+		},
+		{
+			"h": "skystrike_cofsa"
+		},
+		{
+			"h": "suffer_cofsa"
+		},
+		{
+			"h": "voice%20of%20the%20dragon_thedraconomicon"
+		},
+		{
+			"h": "warding%20bond_phb"
+		},
+		{
+			"h": "zone%20of%20truth_phb"
+		},
+		{
+			"h": "almighty%20assault_cofsa"
+		},
+		{
+			"h": "aura%20of%20vitality_phb"
+		},
+		{
+			"h": "blinding%20smite_phb"
+		},
+		{
+			"h": "calm_thedraconomicon"
+		},
+		{
+			"h": "conjunction%20of%20chaos_tcee1"
+		},
+		{
+			"h": "conjunction%20of%20order_tcee1"
+		},
+		{
+			"h": "conjunction%20of%20the%20nexus_tcee1"
+		},
+		{
+			"h": "create%20food%20and%20water_phb"
+		},
+		{
+			"h": "crusader's%20mantle_phb"
+		},
+		{
+			"h": "daylight_phb"
+		},
+		{
+			"h": "detect%20portal_tcee1"
+		},
+		{
+			"h": "dirge%20of%20the%20dragonlords_ootdlpg"
+		},
+		{
+			"h": "dispel%20magic_phb"
+		},
+		{
+			"h": "elemental%20weapon_phb"
+		},
+		{
+			"h": "funeral%20pyre_cofsa"
+		},
+		{
+			"h": "irreversible%20smite_cofsa"
+		},
+		{
+			"h": "light%20of%20xymor_thedraconomicon"
+		},
+		{
+			"h": "magic%20circle_phb"
+		},
+		{
+			"h": "remove%20curse_phb"
+		},
+		{
+			"h": "revivify_phb"
+		},
+		{
+			"h": "spell%20resistance_thedraconomicon"
+		},
+		{
+			"h": "spirit%20shroud_tce"
+		},
+		{
+			"h": "aura%20of%20life_phb"
+		},
+		{
+			"h": "aura%20of%20purity_phb"
+		},
+		{
+			"h": "banishment_phb"
+		},
+		{
+			"h": "behold_tcee1"
+		},
+		{
+			"h": "dark%20empowerment_cofsa"
+		},
+		{
+			"h": "death%20ward_phb"
+		},
+		{
+			"h": "draconic%20might_thedraconomicon"
+		},
+		{
+			"h": "fell%20the%20greatest%20foe_thedraconomicon"
+		},
+		{
+			"h": "find%20greater%20steed_xge"
+		},
+		{
+			"h": "locate%20creature_phb"
+		},
+		{
+			"h": "mark%20of%20objection_cofsa"
+		},
+		{
+			"h": "staggering%20smite_phb"
+		},
+		{
+			"h": "unspoken%20agreement_cofsa"
+		},
+		{
+			"h": "angelic%20rebuke_cofsa"
+		},
+		{
+			"h": "banishing%20smite_phb"
+		},
+		{
+			"h": "circle%20of%20power_phb"
+		},
+		{
+			"h": "conjunction%20of%20the%20natural_tcee1"
+		},
+		{
+			"h": "conjunction%20of%20the%20other%20side_tcee1"
+		},
+		{
+			"h": "destructive%20wave_phb"
+		},
+		{
+			"h": "dispel%20evil%20and%20good_phb"
+		},
+		{
+			"h": "falling%20star_cofsa"
+		},
+		{
+			"h": "geas_phb"
+		},
+		{
+			"h": "holy%20weapon_xge"
+		},
+		{
+			"h": "punishing%20smite_cofsa"
+		},
+		{
+			"h": "raise%20dead_phb"
+		},
+		{
+			"h": "summon%20celestial_tce"
+		}
+	],
+	"sources": [
+		"PHB",
+		"XGE",
+		"COFSA",
+		"OotDLPG",
+		"DAPC",
+		"TheDraconomicon",
+		"TCEE1",
+		"TCE"
+	]
+}
