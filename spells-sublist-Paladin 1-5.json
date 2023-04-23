@@ -1,4 +1,6 @@
 {
+	"spell": [
+		{
 	"fileType": "spells-sublist",
 	"siteVersion": "1.179.1",
 	"name": "Paladin 1-5",
@@ -267,4 +269,4 @@
 		"TCEE1",
 		"TCE"
 	]
-}
+}]}
