@@ -213,36 +213,36 @@
 }
 {
 	"subclassFeature": [
-      {
-      		"name": "Channel Divinity: {@i Arcane Abjuration}",
-  		  	"source": "ClericDivineDomains",
-  		  	"className": "Cleric",
-  		  	"classSource": "PHB",
-  		  	"subclassShortName": "AltArcana",
-  		  	"subclassSource": "ClericDivineDomains",
-  		  	"level": 2,
-  		  	"system": {
-  	  			"target.value": 1,
-  	    		"target.type": "creature",
-  	  			"range.value": 30,
-  	  			"range.units": "ft"
-  	  		}
-  	},
-  	{
-  			"name": "Arcane Initiate",
-  			"source": "ClericDivineDomains",
-  			"className": "Cleric",
-  			"classSource": "PHB",
-  			"subclassShortName": "AltArcana",
-  			"subclassSource": "ClericDivineDomains",
-  			"level": 1,
-  			"entryData": {
-  				"skillProficiencies": [
-  					{
-  						"arcana": true
-  					}
-  				]
-  			}
+		{
+			"name": "Channel Divinity: {@i Arcane Abjuration}",
+			"source": "ClericDivineDomains",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 2,
+			"system": {
+				"target.value": 1,
+				"target.type": "creature",
+				"range.value": 30,
+				"range.units": "ft"
+			}
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "ClericDivineDomains",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 1,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"arcana": true
+					}
+				]
+			}
 		}
 	]
 }
