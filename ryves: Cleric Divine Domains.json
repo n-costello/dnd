@@ -22,8 +22,8 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Arcana Domain|Cleric||AltArcana|ClericDivineDomains|1",
-				"Channel Divinity: Arcane Abjuration|Cleric||AltArcana|ClericDivineDomains|2",
+				"Alternate Arcana Domain|Cleric||AltArcana|ClericDivineDomains|1",
+				"Channel Divinity: {@i Arcane Abjuration}|Cleric||AltArcana|ClericDivineDomains|2",
 				"Spell Breaker|Cleric||AltArcana|ClericDivineDomains|6",
 				"Potent Spellcasting|Cleric||AltArcana|ClericDivineDomains|8",
 				"Arcane Mastery|Cleric||AltArcana|ClericDivineDomains|17"
@@ -193,7 +193,7 @@
 			]
 		},
 		{
-			"name": "Spell Mastery",
+			"name": "Arcane Mastery",
 			"source": "ClericDivineDomains",
 			"page": 13,
 			"className": "Cleric",
