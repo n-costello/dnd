@@ -92,18 +92,11 @@
 			}
 		}
 	],
-	"startingProficiencies": {
-		"skills": [
-			{
-				"choose": {
-					"from": [
-						"arcana"
-					],
-					"count": 1
-				}
-			}
-		]
-	},
+	"skillProficiencies": [
+		{
+			"arcana": true
+		}
+	],
 	"subclassFeature": [
 		{
 			"name": "Alternate Arcana Domain",
