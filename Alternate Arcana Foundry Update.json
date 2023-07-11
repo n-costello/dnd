@@ -93,18 +93,8 @@
 		}
 	],
 	"startingProficiencies": {
-		"armor": [
-			"light",
-			"medium",
-			"{@item shield|phb|shields}"
-		],
-		"weapons": [
-			"simple"
-		],
 		"skills": [
-			{
-				"arcana"
-			}
+			"arcana"
 		]
 	},
 	"subclassFeature": [
