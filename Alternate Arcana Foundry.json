@@ -92,11 +92,6 @@
 			}
 		}
 	],
-	"skillProficiencies": [
-		{
-			"arcana": true
-		}
-	],
 	"subclassFeature": [
 		{
 			"name": "Alternate Arcana Domain",
