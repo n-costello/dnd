@@ -21,25 +21,7 @@
 			"shortName": "AltArcana",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassFeatures": [
-				"Alternate Arcana Domain|Cleric||AltArcana|ClericDivineDomains|1",
-				"Channel Divinity: {@i Arcane Abjuration}|Cleric||AltArcana|ClericDivineDomains|2",
-				"Spell Breaker|Cleric||AltArcana|ClericDivineDomains|6",
-				"Potent Spellcasting|Cleric||AltArcana|ClericDivineDomains|8",
-				"Arcane Mastery|Cleric||AltArcana|ClericDivineDomains|17"
-			],
-			"subclassSpells": [
-				"Magic Missile",
-				"Shield",
-				"Magic Weapon",
-				"Rope Trick",
-				"Counterspell",
-				"Tiny Servant|xge",
-				"Arcane Eye",
-				"Otiluke's resilient sphere",
-				"Bigby's Hand",
-				"Wall of Force"
-			],
+			
 			"additionalSpells": [
 				{
 					"known": {
@@ -54,41 +36,48 @@
 					},
 					"prepared": {
 						"1": [
-							"magic missile",
-							"shield"
+							"detect magic",
+							"magic missile"
 						],
 						"3": [
 							"magic weapon",
-							"rope trick"
+							"Nystul's magic aura"
 						],
 						"5": [
-							"counterspell",
-							"tiny servant"
+							"dispel magic",
+							"magic circle"
 						],
 						"7": [
 							"arcane eye",
-							"Otiluke's resilient sphere"
+							"Leomund's secret chest"
 						],
 						"9": [
-							"Bigby's hand",
-							"wall of force"
+							"planar binding",
+							"teleportation circle"
 						],
 						"17": [
 							{
-								"choose": "level=6|class=Wizard|school=A;C;T"
+								"choose": "level=6|class=Wizard"
 							},
 							{
-								"choose": "level=7|class=Wizard|school=A;C;T"
+								"choose": "level=7|class=Wizard"
 							},
 							{
-								"choose": "level=8|class=Wizard|school=A;C;T"
+								"choose": "level=8|class=Wizard"
 							},
 							{
-								"choose": "level=9|class=Wizard|school=A;C;T"
+								"choose": "level=9|class=Wizard"
 							}
 						]
 					}
 				}
+			],
+			"subclassFeatures": [
+				"Alternate Arcana Domain|Cleric||AltArcana|ClericDivineDomains|1",
+				"Channel Divinity: {@i Arcane Abjuration}|Cleric||AltArcana|ClericDivineDomains|2",
+				"Spell Breaker|Cleric||AltArcana|ClericDivineDomains|6",
+				"Potent Spellcasting|Cleric||AltArcana|ClericDivineDomains|8",
+				"Arcane Mastery|Cleric||AltArcana|ClericDivineDomains|17"
 			]
 		}
 	],
