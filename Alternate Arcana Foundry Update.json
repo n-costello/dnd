@@ -39,57 +39,62 @@
 				"Otiluke's resilient sphere",
 				"Bigby's Hand",
 				"Wall of Force"
-			]
-		}
-	],
-	"additionalSpells": [
-		{
-			"known": {
-				"1": {
-					"_": [
-						{
-							"choose": "level=0|class=Wizard",
-							"count": 2
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard",
+									"count": 2
+								}
+							]
 						}
-					]
-				}
-			},
-			"prepared": {
-				"1": [
-					"magic missile",
-					"shield"
-				],
-				"3": [
-					"magic weapon",
-					"rope trick"
-				],
-				"5": [
-					"counterspell",
-					"tiny servant"
-				],
-				"7": [
-					"arcane eye",
-					"Otiluke's resilient sphere"
-				],
-				"9": [
-					"Bigby's hand",
-					"wall of force"
-				],
-				"17": [
-					{
-						"choose": "level=6|class=Wizard|school=A;C;T"
 					},
-					{
-						"choose": "level=7|class=Wizard|school=A;C;T"
-					},
-					{
-						"choose": "level=8|class=Wizard|school=A;C;T"
-					},
-					{
-						"choose": "level=9|class=Wizard|school=A;C;T"
+					"prepared": {
+						"1": [
+							"magic missile",
+							"shield"
+						],
+						"3": [
+							"magic weapon",
+							"rope trick"
+						],
+						"5": [
+							"counterspell",
+							"tiny servant"
+						],
+						"7": [
+							"arcane eye",
+							"Otiluke's resilient sphere"
+						],
+						"9": [
+							"Bigby's hand",
+							"wall of force"
+						],
+						"17": [
+							{
+								"choose": "level=6|class=Wizard|school=A;C;T"
+							},
+							{
+								"choose": "level=7|class=Wizard|school=A;C;T"
+							},
+							{
+								"choose": "level=8|class=Wizard|school=A;C;T"
+							},
+							{
+								"choose": "level=9|class=Wizard|school=A;C;T"
+							}
+						]
 					}
+				}
+			],
+			"startingProficiencies": {
+				"skills": [
+					"arcana"
 				]
-			}
+			},
 		}
 	],
 	"subclassFeature": [
