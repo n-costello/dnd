@@ -214,12 +214,12 @@
 {
 	"subclassFeature": [
       {
-      		"name": "Channel Divinity: Arcane Abjuration",
-  		  	"source": "SCAG",
+      		"name": "Channel Divinity: {@i Arcane Abjuration}",
+  		  	"source": "ClericDivineDomains",
   		  	"className": "Cleric",
   		  	"classSource": "PHB",
-  		  	"subclassShortName": "Arcana",
-  		  	"subclassSource": "SCAG",
+  		  	"subclassShortName": "AltArcana",
+  		  	"subclassSource": "ClericDivineDomains",
   		  	"level": 2,
   		  	"system": {
   	  			"target.value": 1,
@@ -227,14 +227,14 @@
   	  			"range.value": 30,
   	  			"range.units": "ft"
   	  		}
-  		},
-  		{
+  	},
+  	{
   			"name": "Arcane Initiate",
-  			"source": "SCAG",
+  			"source": "ClericDivineDomains",
   			"className": "Cleric",
   			"classSource": "PHB",
-  			"subclassShortName": "Arcana",
-  			"subclassSource": "SCAG",
+  			"subclassShortName": "AltArcana",
+  			"subclassSource": "ClericDivineDomains",
   			"level": 1,
   			"entryData": {
   				"skillProficiencies": [
@@ -243,6 +243,6 @@
   					}
   				]
   			}
-  		}
-  ]
+		}
+	]
 }
