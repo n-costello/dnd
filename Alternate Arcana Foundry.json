@@ -1,0 +1,248 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ClericDivineDomains",
+				"abbreviation": "CDD",
+				"full": "Cleric Divine Domains",
+				"authors": [
+					"LaserLlama"
+				],
+				"convertedBy": [
+					"ryves"
+				]
+			}
+		]
+	},
+	"subclass": [
+		{
+			"name": "Alternate Arcana Domain",
+			"source": "ClericDivineDomains",
+			"shortName": "AltArcana",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Alternate Arcana Domain|Cleric||AltArcana|ClericDivineDomains|1",
+				"Channel Divinity: {@i Arcane Abjuration}|Cleric||AltArcana|ClericDivineDomains|2",
+				"Spell Breaker|Cleric||AltArcana|ClericDivineDomains|6",
+				"Potent Spellcasting|Cleric||AltArcana|ClericDivineDomains|8",
+				"Arcane Mastery|Cleric||AltArcana|ClericDivineDomains|17"
+			],
+			"subclassSpells": [
+				"Magic Missile",
+				"Shield",
+				"Magic Weapon",
+				"Rope Trick",
+				"Counterspell",
+				"Tiny Servant|xge",
+				"Arcane Eye",
+				"Otiluke's resilient sphere",
+				"Bigby's Hand",
+				"Wall of Force"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Alternate Arcana Domain",
+			"source": "ClericDivineDomains",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 1,
+			"entries": [
+				"The Arcana Domain for the Cleric was originally published in the {@i Sword Coast Adventurer's Guide}, and is widely accepted as an underwhelming subclass for the Cleric. The Alternate Arcana Domain is an attempt to bring the Divine Domain up to par with other officially published Cleric subclasses.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcana Domain Spells|Cleric||AltArcana|ClericDivineDomains|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Initiate|Cleric||AltArcana|ClericDivineDomains|1"
+				}
+			]
+		},
+		{
+			"name": "Arcana Domain Spells",
+			"source": "ClericDivineDomains",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Arcana Domain feature}",
+        "You always have the spells from the table below prepared once you reach certain levels in this class. See the Divine Domain class feature for how Domain Spells work.",
+        "When you gain a Cleric level, you can replace one spell from this feature with an abjuration, conjuration, or transmutation spell of the same level from the Wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Arcana Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell magic missile}, {@spell shield}"
+						],
+						[
+							"3rd",
+							"{@spell magic weapon}, {@spell rope trick}"
+						],
+						[
+							"5th",
+							"{@spell counterspell}, {@spell tiny servant|xge}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell Otiluke's resilient sphere}"
+						],
+						[
+							"9th",
+							"{@spell Bigby's hand}, {@spell wall of force}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "ClericDivineDomains",
+			"page": 13,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Arcana Domain feature}",
+				"You gain proficiency in {@skill Arcana}, and you learn two cantrips from the {@filter Wizard spell list|spells|class=wizard|level=0}. They count as Cleric spells for you, but they don't count against your number of Cantrips Known."
+			]
+		},
+		{
+			"name": "Channel Divinity: {@i Arcane Abjuration}",
+			"source": "ClericDivineDomains",
+			"page": 13,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Arcana Domain feature}",
+				"As an action, you can hold aloft your holy symbol and attempt to turn one celestial, elemental, fey, or fiend that can see or hear you within 30 feet. It must succeed on a Wisdom saving throw or be turned as if by your Turn Undead feature.",
+				"As you gain levels in this class, this Channel Divinity can destroy a celestial, elemental, fey, or fiend if its CR is equal to or less than the CR of your Destroy Undead feature."
+			]
+		},
+		{
+			"name": "Spell Breaker",
+			"source": "ClericDivineDomains",
+			"page": 13,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Arcana Domain feature}",
+				"Your magic dispels all but the most potent curses and spells. When you restore hit points to a creature with a Cleric spell, you can also end a spell of your choice affecting that creature of a level equal to the spell slot you expended or lower."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "TCE",
+			"page": 30,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 8,
+			"isClassFeatureVariant": true,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with the might of the whole cosmos, channeled through your god. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@damage 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "ClericDivineDomains",
+			"page": 13,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Arcana Domain feature}",
+				"Your divine knowledge of the arcane empowers your spells. When you deal damage with a Cleric cantrip you add your Wisdom modifier (minimum of +1) to the damage roll."
+			]
+		},
+		{
+			"name": "Arcane Mastery",
+			"source": "ClericDivineDomains",
+			"page": 13,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AltArcana",
+			"subclassSource": "ClericDivineDomains",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Arcana Domain feature}",
+				"Your god grants you an understanding of arcane magic rivals that of the most powerful archmages. You add one spell of your choice of 6th-level, 7th-level, 8th-level, and 9th-level from the Wizard spell list to your list of Arcana Domain spells.",
+				"However, these spells must be chosen from the abjuration, conjuration, or transmutation schools of magic.",
+				"Like the rest of your Arcana Domain Spells, each time you gain a level in this class, you can replace one of the spells you gained from this feature with another spell of the same level from the Wizard spell list, from the spell schools above."
+			]
+		}
+	]
+}
+{
+	"subclassFeature": [
+      {
+      		"name": "Channel Divinity: Arcane Abjuration",
+  		  	"source": "SCAG",
+  		  	"className": "Cleric",
+  		  	"classSource": "PHB",
+  		  	"subclassShortName": "Arcana",
+  		  	"subclassSource": "SCAG",
+  		  	"level": 2,
+  		  	"system": {
+  	  			"target.value": 1,
+  	    		"target.type": "creature",
+  	  			"range.value": 30,
+  	  			"range.units": "ft"
+  	  		}
+  		},
+  		{
+  			"name": "Arcane Initiate",
+  			"source": "SCAG",
+  			"className": "Cleric",
+  			"classSource": "PHB",
+  			"subclassShortName": "Arcana",
+  			"subclassSource": "SCAG",
+  			"level": 1,
+  			"entryData": {
+  				"skillProficiencies": [
+  					{
+  						"arcana": true
+  					}
+  				]
+  			}
+  		}
+  ]
+}
