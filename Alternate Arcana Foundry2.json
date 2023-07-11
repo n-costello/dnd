@@ -90,11 +90,6 @@
 					}
 				}
 			],
-			"startingProficiencies": {
-				"skills": [
-					"arcana"
-				]
-			},
 		}
 	],
 	"subclassFeature": [
