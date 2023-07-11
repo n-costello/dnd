@@ -154,7 +154,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "AltArcana",
 			"subclassSource": "ClericDivineDomains",
-			"level": 17,
+			"level": 6,
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Arcana Domain feature}",
