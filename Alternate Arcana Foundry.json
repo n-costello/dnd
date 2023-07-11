@@ -94,7 +94,14 @@
 	],
 	"startingProficiencies": {
 		"skills": [
-			"arcana"
+			{
+				"choose": {
+					"from": [
+						"arcana"
+					],
+					"count": 1
+				}
+			}
 		]
 	},
 	"subclassFeature": [
