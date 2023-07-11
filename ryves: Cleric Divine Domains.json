@@ -52,7 +52,7 @@
 			"subclassSource": "ClericDivineDomains",
 			"level": 1,
 			"entries": [
-				"The Arcana Domain for the Cleric was originally published in the {@i Sword Coast Adventurer's Guide}, and is widely accepted as an underwhelming subclass for the Cleric. The Alternate Arcana Domain is an attempt to bring the Divine Domain up to par with other officially published Cleric subclasses."
+				"The Arcana Domain for the Cleric was originally published in the {@i Sword Coast Adventurer's Guide}, and is widely accepted as an underwhelming subclass for the Cleric. The Alternate Arcana Domain is an attempt to bring the Divine Domain up to par with other officially published Cleric subclasses.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Arcana Domain Spells|Cleric||AltArcana|ClericDivineDomains|1"
