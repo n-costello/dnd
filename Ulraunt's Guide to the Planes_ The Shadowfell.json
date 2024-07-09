@@ -1,0 +1,2739 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UGPTS",
+				"abbreviation": "UGPTS",
+				"full": "Ulraunt's Guide to the Planes: The Shadowfell",
+				"version": "v1",
+				"url": "https://www.dmsguild.com/product/264872/Ulraunts-Guide-to-the-Planes-The-Shadowfell",
+				"authors": [
+					"Marching Modron Press"
+				],
+				"convertedBy": [
+					"ryves"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Darkfiend",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"source": "UGPTS",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "8d6 + 40",
+				"average": 68
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 20,
+			"int": 10,
+			"wis": 17,
+			"cha": 9,
+			"passive": 16,
+			"cr": "5",
+			"page": 158,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"the languages of its creator"
+			],
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+7",
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede the darkfiend's darkvision."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The darkfiend has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the darkfiend can use a bonus action to become {@condition invisible}, along with anything it is wearing or carrying. The invisibility lasts until the darkfiend uses a bonus action to end it or until the darkfiend attacks, is in bright light, or is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Sunlight Hypersensitivity",
+					"entries": [
+						"The darkfiend takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The darkfiend's long jump is up to 40 feet and its high jump is up to 30 feet, with or without a running start."
+					]
+				}
+			],
+			"traitTags": [
+				"Devil's Sight",
+				"Magic Resistance",
+				"Sunlight Sensitivity"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The darkfiend either makes one bite attack and two claw attacks or hurls two shadow javelins."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Shadow Javelin",
+					"entries": [
+						"The darkfiend coalesces shadows into a javelin-like form and hurls it at a creature it can see within 60 feet of it to which the entire trajectory of the javelin is in dim light or darkness. The javelin is considered a magic weapon and deals 12 ({@damage 2d8 + 3}) cold damage to the target, striking unerringly. The javelin disappears after it hits."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The darkfiend’s innate spellcasting ability is Wisdom. It can innately cast the following spells (spell save {@dc 14}) while in dim light or darkness, requiring no material components:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell major image}",
+						"{@spell spider climb}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell dream}",
+							"{@spell mislead}",
+							"{@spell teleport}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTags": [
+				"C",
+				"P",
+				"R"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Bleakborn",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "UGPTS",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 17,
+			"int": 4,
+			"wis": 6,
+			"cha": 6,
+			"passive": 8,
+			"cr": "7",
+			"page": 153,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"understands the languages it knew in life but can't speak"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"save": {
+				"wis": "+1"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "Cold to the Touch",
+					"entries": [
+						"A creature that touches the bleakborn or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) cold damage."
+					]
+				},
+				{
+					"name": "Heat-Draining Aura",
+					"entries": [
+						"At the start of each of the bleakborn’s turns, each creature within 15 feet of it takes 7 ({@damage 2d6}) cold damage and the bleakborn regains lost hit points equal to half the damage done. A humanoid slain by this damage rises as a bleakborn at the end of its next turn.",
+						"Unless the bleakborn’s remains are sprinked with holy water or destroyed, this trait continues to function even after the bleakborn is reduced to 0 hit points."
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"entries": [
+						"The bleakborn has advantage on saving throws against any effect that turns undead."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the bleakborn to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the bleakborn drops to 1 hit point instead."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"traitTags": [
+				"Turn Resistance",
+				"Undead Fortitude"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bleakborn makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 16 ({@damage 3d10}) cold damage. A humanoid slain by this attack rises 1 minute later as a {@creature zombie}, unless the humanoid is restored to life or its body is destroyed."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": ""
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fskCHfT.jpeg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"C"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Aura of Shade",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Shadows curl around you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each friendly creature in the aura (including you) has resistance to cold damage, and is immune to the effects of extreme cold. You can use a bonus action to deal cold damage equal to half your level plus your spellcasting modifier to one hostile creature in the aura."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Black Candle",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch an object which becomes surrounded by a 10-foot-radius sphere of shadow magic for the duration. Areas of bright light or darkness become dim light within the sphere."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Black Lore of Moil",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded and gem-encrusted crawling claw worth at least 1,500 gp, which the spell consumes",
+					"consume": true,
+					"cost": 150000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 120 feet of you into darkness, and bright light in the same area to dim light.",
+				"Until the spell ends, you have resistance to radiant damage. In addition, you automatically succeed saving throws against necromancy spells and all other creatures within 120 feet of you have disadvantage on saving throws against necromancy spells."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Carpet of Shadow",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of tar"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You move your hands across the ground as if rolling out a carpet. A 20-foot radius square pool of tar appears, centered on a spot within range. If the spell affects a space that is occupied by a creature, the spell fails. The pool is 10 feet deep. When a creature enters the area, it must succeed on a Strength saving throw or sinks 2 feet into the pool and become {@condition restrained}. At the start of each of the creature’s turns, it sinks another 2 feet. As long as the creature isn’t completely submerged in the pool, it can escape by using its action and succeeding on a Strength check against your spell save DC. A creature that is completely submerged in the pool can’t breathe and is {@condition blinded}.",
+				"A creature can pull another creature within its reach out of the pool by using its action and succeeding on a Strength check against your spell save DC.",
+				"If the spell ends while a creature is in the pool, it rises to the surface, appearing {@condition prone} on the floor in the same space that it occupied within the pool."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level, the duration is {@status concentration}, up to 10 minutes. If you use a spell slot of 7th level, the duration is 1 hour. If you use a spell slot of 8th level, the duration is 8 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled.",
+						"Using a spell slot of 7th level or higher grants a duration that doesn’t require {@status concentration}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength"
+			],
+			"abilityCheck": [
+				"strength"
+			],
+			"areaTags": [
+				"Q"
+			]
+		},
+		{
+			"name": "Conjure Darkfiend",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon a {@creature darkfiend|UGPTS} which appears in an unoccupied space that you can see within range. The darkfiend disappears when it drops to 0 hit points or when the spell ends.",
+				"The darkfiend is friendly to you and your companions for the duration. Roll initiative for the darkfiend, which acts on its own turn. The darkfiend obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the darkfiend, it defends itself from hostile creatures, but otherwise take no actions.",
+				"If you treat the darkfiend badly, by not allowing it to be mischievous or by sending it into bright light, it can attempt a Charisma saving throw against your spell save DC at the end of each of its turns. On a successful save, the darkfiend is no longer under your control, becomes hostile to you, and doesn’t disappear for the duration, even if the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a mythic spell slot of 2nd level or higher, you conjure forth one additional darkfiend for each mythic spell slot above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Dariastren's Horrific Stitching",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 8,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a roll of fine black silk thread worth at least 50 gp which the spell consumes, and a needle",
+					"consume": true,
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You target any number of humanoids within range that are all within 5 feet of each other, moving your hands in a sewing motion. Each target must make a charisma saving throw. On a failed save, the target's speed is magically reduced to 0, and it can't benefit from any bonus to its speed as its shadow becomes stuck to the shadows of the other targets. A creature stuck in this way cannot escape through nonmagical means or teleportation magic.",
+				"On a successful save, a creature's movement speed is not effected, but its shadow is still stuck to those of creatures who failed the initial saving throw. A target that can move cannot move without dragging the other targets along, which limits their movement to half of their current movement speed.",
+				"A target can repeat the saving throw at the end of each of its turns, regaining their movement speed on a successful, though its shadow remains stuck to the shadows of any targets whose movement speed is still 0 as a result of this spell.",
+				"The spell ends early if all effected creatures gain the ability to move."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength",
+				"charisma"
+			],
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"name": "Dariastren's Shadow Blight",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 9,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "the skull of a night hag"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 30
+					}
+				}
+			],
+			"entries": [
+				"You point your finger at a target you can see within range that is in dim light or darkness, firing a ray of darting shadows at the target. The target must make a Wisdom saving throw. On a failed save, the target is infected with shadow blight for the duration. While infected in this manner, the target is vulnerable to fire and radiant damage, can’t regain hit points, and takes 20 radiant damage whenever it starts its turn in bright light. In addition, the target’s hit point maximum is reduced by {@dice 1d4} whenever it finishes a long rest.",
+				"A {@spell greater restoration} spell cast with a 9th level spell slot or a {@spell wish} spell can end the effect on an affected creature.",
+				"Constructs and undead are unaffected by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Dariastren's Shadow Well",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of wet charcoal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You target a Huge or smaller creature within range that has a shadow and is standing on the ground. The target’s shadow becomes a black pit that leads to a pocket plane within the Shadowfell. The target is pulled into its own shadow, appearing within the demiplane. The target remains there for the duration or until it escapes.",
+				"The target’s shadow remains in place while the target is gone and is of the same size as the target. If the target moves within the demiplane, the shadow moves in the same manner. The target can only move horizontally while within the demiplane. The first time on a turn the shadow moves into the space of another creature of equal or smaller size to the target, the creature must succeed a Dexterity saving throw or also be pulled into the shadow, appearing in the nearest unoccupied space to the initial target within the demiplane.",
+				"A creature within the demiplane can make a Wisdom saving throw at the end of each of its turns, escaping on a successful save. The spell ends when the original target escapes, freeing all other creatures trapped within the demiplane, and causing the shadow to rejoin the target. A creature that escapes appears in the nearest unoccupied space of the shadow but is {@condition frightened} until the end of its next turn as it reels from the horrific experience.",
+				"Creatures native to the shadowfell can’t be {@condition frightened} by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"strength",
+				"charisma"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Darkbolt",
+			"source": "UGPTS",
+			"page": 143,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 600
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A ball of cold darkness launches from your hand towards one creature in range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d6} cold damage plus {@damage 2d6} necrotic damage. The bolt deals half damage if the target is fully or partially standing in bright light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"ST"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, both the cold and necrotic damage increases by {@dice 1d6} for each spell slot above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Darkest Night",
+			"source": "UGPTS",
+			"page": "143-144",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "fine ink worth at least 500 gp which the spell consumes",
+					"consume": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Magical darkness spreads from a point you choose within range to fill a 30-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can’t see through this darkness but you can regardless of your senses. Nonmagical light, as well as light created by spells of 7th level or lower, can’t illuminate the area.",
+				"A creature that starts its turn within the area, must succeed on a Wisdom saving throw or become {@condition paralyzed} with fear until the start of its next turn. Creatures that are immune to the {@condition frightened} condition can’t be {@condition paralyzed} in this manner."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			],
+			"miscTags": [
+				"OBS"
+			]
+		},
+		{
+			"name": "Darklight",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "the remains of an anglerfish"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"An otherworldly sphere of dark light appears, hovering over the palm of your hand. The sphere remains there for the duration and harms neither you nor your equipment. For creatures within 5 feet of you, the sphere sheds bright light in a 10-foot radius and dim light for an additional 10 feet, but the light can’t be observed by creatures further away from you. The light from this spell can’t end spells and other magical effects that normally end when in bright light. The spell ends if you dismiss it as an action or if you cast it again.",
+				"You can also attack with the sphere, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the sphere at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d6} cold damage.",
+				"This spell’s damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"cold"
+			],
+			"miscTags": [
+				"LGT"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Dark Mirror",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small mirror and an unlit candle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A shimmering, 5-foot radius sphere appears centered on you and remains centered on your for the duration. No darkness, whether magical or mundane, can extend through the sphere from the outside. In addition, you can see through darkness, whether magical or mundane, out to a range of 30 feet.",
+				"If the sphere is surrounded by darkness, it reflects that darkness like a mirror, causing the sphere and any creatures inside it to be {@condition invisible} to creatures outside of the sphere that could otherwise see through the darkness with traits such as darkvision or devil's sight."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"S"
+			],
+			"miscTags": [
+				"OBS"
+			]
+		},
+		{
+			"name": "Death Grimace",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You place a mark on a corpse within range. You decide what form the mark takes when you cast the spell. You can give the corpse a specific expression, magically carve a symbol or word into it, cause one of its eyes to change colors, make its fingernails disappear, and similar.",
+				"Dark assassins often use this spell as a calling card or as a way to prove the deed was done."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"PRM"
+			]
+		},
+		{
+			"name": "Death Knell",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch an {@condition unconscious} humanoid. The target must succeed a Wisdom saving throw or die. The target succeeds the saving throw automatically, if it has more than 10 hit points."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the hit point requirement to automatically succeed on the saving throw increases by 5 for each spell slot above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Dread Word",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 7,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You speak a dread word so foul that it tears at the very soul of anyone who hears it. One creature of your choice within range that can hear you must make a Wisdom saving throw. On a failed save, the creature is {@condition stunned} until the end of its next turn and its Charisma score becomes 1 for the duration. At the end of each of its turns, a creature can repeat the saving throw, restoring its Charisma score to normal on a successful save.",
+				"If a creature fails all saving throws for the full duration of the spell, it dies."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"stunned"
+			]
+		},
+		{
+			"name": "Duskfall",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a piece of coal and six black luxury candles, each worth at least 1 gp, which the spell consumes",
+					"consume": true,
+					"cost": 600
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You place your material components on the ground, forming a circle with the candles and placing the coal in the center. When the casting is complete, the candles melt away into nothingness and the spell takes hold. For the duration, a 1-mile radius sphere centered on the point of casting becomes affected. Sunlight can’t enter the area and other light, both magical and mundane, can only create dim light. No bright light can shine in the area. In addition, fire can’t burn as hot as usually, causing it to deal only half its normal damage within the area.",
+				"Casting this spell on the same spot every day for a year makes this effect permanent until dispelled by a casting of dispel magic using a spell slot of 7th level or higher."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 8th level or higher, the radius increases by 1 mile and the duration increases by 8 hours for each slot level above 7th."
+					]
+				}
+			],
+			"miscTags": [
+				"PIR"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Duskveil",
+			"source": "UGPTS",
+			"page": 144,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You target a creature within range that you can see. The target must succeed a Wisdom saving throw or have disadvantage on Wisdom (Perception) checks for the duration. Creatures that can't be {@condition charmed} are immune to this effect.",
+				"This spell’s duration increases by 1 round when you reach 5th level (2 rounds), 11th level (3 rounds), and 17th level (4 rounds)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Evard's Black Gate",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a black diamond worth at least 5,000 gp which the spell consumes",
+					"consume": true,
+					"cost": 500000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A 10-foot radius sphere of black void tears a hole in reality at a point you can see within range, and massive, squirming, ebony tentacles burst forth from it, wailing wildly in all directions. Each creature within 20 feet of the sphere takes {@damage 4d8} cold damage and must succeed a Strength saving throw or be {@condition restrained} and knocked {@condition prone}. A {@condition restrained} creature can use an action on its turn to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, ending the {@condition restrained} condition on itself on a successful check. A Huge or larger creature automatically succeeds the saving throw.",
+				"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature takes {@damage 4d8} cold damage and must also make the Strength saving throw.",
+				"On each of your turns, you can use an action to pull a creature {@condition restrained} by this spell up to 10 feet towards the hole. If a creature is pulled into the hole, the target disappears to a plane of the DM’s discretion."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"S"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"damageInflict": [
+				"cold"
+			]
+		},
+		{
+			"name": "Ghost Light",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of phosphorous"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a green, torch-sized radiance within range. The radiance sheds dim light in a 30-foot radius. As a bonus action on your turn, you can move the light up to 60 feet to a new spot within range. The light winks out if it exceeds the spell’s range. A creature that starts its turn within the light must succeed a Wisdom saving throw or become {@condition frightened} until the end of its next turn."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"LGT"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Grace of the Masked Lord",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "an object you have stolen, worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a translucent, hooded cloak which wraps around you. For the duration, you have advantage on saving throws against traps, unless you are {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Hide from Undead",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You imbue a willing creature with powerful magic that hides it from lesser undead. For the duration, the target can't be sensed by undead with an Intelligence score of 3 or lower. The spell ends early if the target uses an action to do anything other than interacting with objects."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd or 4th level, the spell affects undead with an Intelligence score of 4 or lower and has a duration of 10 minutes. When you cast this spell using a spell slot of 5th or 6th level, the spell affects undead with an Intelligence score of 5 or lower and has a duration of 1 hour. When you cast this spell using a spell slot of 7th or 8th level, the spell affects undead with an Intelligence score of 6 or lower and has a duration of 8 hours. When you cast this spell using a spell slot of 9th level or higher, the spell affects undead with an Intelligence score of 8 or lower and has a duration of 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Investiture of Shadow",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Until the spell ends, shadows envelop you, and you gain the following benefits while in dim light or darkness:",
+				"• You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+				"• Your movement and melee attacks make no sound, granting you advantage on Dexterity (Stealth) checks.",
+				"• You can move along vertical surfaces on your turn without falling during the move.",
+				"• As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"TP",
+				"UBA"
+			]
+		},
+		{
+			"name": "Kreshenk's Eerie Mask",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a mask of black cloth"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Wrapping a mask of black cloth around your face, your face becomes covered in shadow, hiding your features completely. For the duration of the spell you see normally in magical and nonmagical darkness out to a range of 60 feet, and you are immune to gazes and similar effects that allow you to be unaffected if you avert your gaze."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the range in which you can see normally in magical and nonmagical darkness increases by 20 feet for each spell slot above 5th. If you cast this spell using a 9th level spell slot, you also gain blindsight out to a range of 30 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mantle of Twilight",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "(a black cloak stitched together from bat fur that you wear"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The cloak that is provided as a material component becomes infused with wisps of shadow material from the Shadowfell, causing the cloak to move subtly as if it has a will of its own. For the duration, you gain resistance to cold damage, become acclimated to cold environments, and whenever a creature touches you or hits you with a melee weapon attack while within 5 feet of you, the creature takes cold damage equal to your spellcasting modifier.",
+				"In addition, you make attacks with advantage against incorporeal creatures and bypass any damage resistances of incorporeal creatures.",
+				"The spell ends early if you are in bright light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Moilian Embrace",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "the frozen heart of a murdered, innocent humanoid, which the spell consumes, and a ceremonial blade worth at least 500 gp",
+					"consume": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can cast this spell only at night in an area of darkness. You touch a humanoid corpse for the entire casting time of the spell, during which time you replace the corpse’s heart with the material component for this spell. Upon finishing the casting of the spell, a thin sheet of ice begins to slowly cover the corpse, originating from its new heart. After 1 hour, the corpse rises as a {@creature bleakborn|UGPTS}. The bleakborn is not under your control."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/fskCHfT.jpeg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Night Trail",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lit thurible"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a creature or an object and wisps of dark mist begins emerging from the target, moving towards you with a speed of 30 feet and dissipating when they reach you. Only you can see these illusory wisps. The wisps continue to emerge from the target for the duration, seeking you through the most efficient path and stretching as far as 1 mile. The spell ends early if the target is in an area of magical light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, the duration is {@status concentration}, up to 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 7th level or higher grants a duration that doesn’t require {@status concentration}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nulathoe's Concussive Demise",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a creature that you can see dies"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You focus your gaze at a creature that dies within range and an explosion of necromantic energies bursts forth from it. Each creature within 10 feet of the corpse must make a Dexterity saving throw. On a failed save, a creature takes {@damage 6d10} necrotic damage and is pushed back 10 feet in a straight line from the corpse. On a successful save, a creature takes half the damage and isn’t pushed back."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"FMV"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level",
+						"or higher, the damage increases by {@dice 1d10} for each spell slot above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"abilityCheck": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Nulathoe's Ninemen",
+			"source": "UGPTS",
+			"page": 145,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "(a drop of blood from a living creature of the same race as the remains and a moonstone worth at least 500 gp which the spell consumes",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a corpse or other remains. The target is permanently protected from decay and can’t become undead. The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don’t count against the time limit of spells such as {@spell raise dead}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Shadow Binding",
+			"source": "UGPTS",
+			"page": 146,
+			"level": 5,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a few links of an iron chain, painted black"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You stretch your arms outwards, targeting a point within range, causing multiple shadowy chains to burst outwards. Each Large or smaller creature within 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature becomes {@condition grappled} by a chain of shadow. Until this grapple ends, the target is {@condition restrained}. A {@condition grappled} creature can use an action on its turn to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, escaping the grapple on a successful check. The spell ends early for a target if it is in bright lightou stretch your arms outwards, targeting a point within range, causing multiple shadowy chains to burst outwards. Each Large or smaller creature within 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature becomes {@condition grappled} by a chain of shadow. Until this grapple ends, the target is {@condition restrained}. A {@condition grappled} creature can use an action on its turn to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, escaping the grapple on a successful check.",
+				"The spell ends early for a target if it is in bright light"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can target an additional creature no more than 5 feet away from another target for each spell slot above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"abilityCheck": [
+				"strength",
+				"dexterity"
+			]
+		},
+		{
+			"name": "Shadow Conjuration",
+			"source": "UGPTS",
+			"page": 146,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ounce of tar plus any material components of the chosen spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You pull wisps of Shadow material from the Shadowfell to create various creatures. Choose a conjuration spell of 4th level or lower from your spell list that conjures one or more creatures. You cast the chosen spell at its lowest level as part of this spell, but the conjured creature or creatures are shadowy versions of themselves.",
+				"A creature summoned in this manner has half the hit points it otherwise would have, is vulnerable to fire and radiant damage, and deals cold damage instead of any damage it would otherwise deal. In addition, it has advantage on Dexterity (Stealth) checks made to hide in dim light or darkness.",
+				"A creature summoned in this manner dies if it is in bright light"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can choose a conjuration spell of 1 level higher for each spell slot above 3rd."
+					]
+				}
+			],
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Shadow Evocation",
+			"source": "UGPTS",
+			"page": 146,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an ounce of tar plus any material components of the chosen spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You pull wisps of Shadow material from the Shadowfell to create various effects. Choose an evocation spell of 4th level or lower from your spell list that deals damage. You cast the chosen spell at its lowest level as part of this spell, but it is a shadowy version of itself.",
+				"A spell cast in this manner deals half the damage it otherwise would, and deals cold damage regardless of what damage it would otherwise deal.",
+				"The spell fizzles and fails if cast in bright light and can’t harm creatures in bright light."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can choose an evocation spell of 1 level higher for each spell slot above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Walk",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 12
+					}
+				}
+			],
+			"entries": [
+				"To cast this spell, you must be in dim light or darkness. You and up to eight willing creatures of your choice that you can see within range are engulfed by shadow, hurling you to the Shadowfell. While in the Shadowfell in this manner, a creature can see only other creatures that are affected by the same spell and can only discern the terrain roughly. A creature is unable to see details, other creatures, or use any senses besides sight. To creatures in the Shadowfell, a creature affected by this spell is {@condition invisible} and makes no sound. To creatures on the plane where the spell was cast, a creature affected by this spell resembles nothing but a faint shadow and can’t be attacked. In addition, while in the Shadowfell in this manner, a creature has a walking speed of 600 feet. The only actions a creature can take are the Dash action or to return to the plane it originated from. A creature can only return to the plane it originated from in an area of dim light or darkness. When a creature returns to the plane it originated from, the spell ends for it and it gains 1 level of {@condition exhaustion}."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Shadowfade",
+			"source": "UGPTS",
+			"page": 146,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a black gemstone worth at least 100 gp which the spell consumes",
+					"consume": true,
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You and up to eight willing creatures who link hands in a circle are transported to a random location within The Shadowfell, at the DM’s discretion. For each person transported in this manner, there is a 5% chance that all transported creatures appear within one of the Domains of Dread.",
+				"The spell fizzles and fails if cast while within the Shadowfell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Soul Anchor",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a black iron ingot worth at least 500 gp which the spell consumes",
+					"consume": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature, and that creature must make a Wisdom saving throw. On a failed save, whether alive or dead, the creature’s soul can’t leave its body for the duration."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Soulfire Lash",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A spectral whip lashes from your hand towards a creature within range, assaulting its mind. The target must make a Charisma saving throw. On a failed save, it takes {@damage 1d4} psychic damage, and until the beginning of your next turn, the next attack the target makes against you can’t cause you to drop below 1 hit point.",
+				"This spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"abilityCheck": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Soulfire Smite",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, the weapon glows with spectral fire and crackles with spiritual energies as you strike. The attack deals an extra {@damage 4d10} psychic damage to the target. Until the end of the target’s next turn, the target’s next attack can’t cause you to drop below 1 hit point."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the extra damage increases by {@dice 1d10} for each spell slot above 5th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Soul Cyclone",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 6,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A 20-foot radius 100-foot tall cyclone of wailing souls appears, centered on a point within range, howling in grief and anguish as they spiral endlessly. The cyclone moves 60 feet in a random direction at the end of each of your turns. You can use your action on of your subsequent turns to dictate the direction in which the cyclone moves at the end of those turns. The cyclone is incorporeal and can move through objects and structures.",
+				"If the cyclone moves out the spell's range, you lose control of it and can’t later reassert control. Similarly, if your {@status concentration} is broken, the cyclone doesn’t disappear, but you lose control of it. If you don’t have control, the cyclone moves in a random direction at the start of each of your turns. The cyclone disappears at the end of its duration, at which point the souls release a horrible yearn.",
+				"When a living creature comes within 30 feet of the cyclone for the first time on a turn or starts its turn there, it must make a Wisdom saving throw, taking 18 ({@damage 4d8}) thunder damage plus 18 ({@damage 4d8}) psychic damage on a failed save, or half as much on a successful one. A creature that fails its saving throw by 5 or more, has its proficiency bonus reduced by 1. The reduction lasts until the target finishes a short or long rest, or until cured by a {@spell greater restoration} or {@spell wish} spell.",
+				"In addition, the cyclone's space is difficult terrain for creatures other than constructs and undead."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic",
+				"psychic"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, both the necrotic and psychic damage increases by {@dice 1d8} for each slot level above 6th."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"DFT"
+			]
+		},
+		{
+			"name": "Spark of Moil",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a piece of frozen, humanoid flesh"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to create a heat-absorbing spark inside one creature within range. Make a ranged spell attack against the target. On a hit, each creature within 5 feet of the target (but not the target itself) must make a Constitution saving throw as it is drained of heat, taking {@damage 2d6} cold damage on a failed save, or half as much on a successful one. The target takes fire damage equal to half the total cold damage dealt, as it absorbs all of the excess heat."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level",
+						"or higher, the cold damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"fire"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Wall of Gloom",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a bit of fleece from a black sheep"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A barrier of ominous darkness appears from the shadows at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.",
+				"If the wall cuts through a creature’s space when it appears, the creature within its area is pushed to one side of the wall and must make a Wisdom saving throw. On a failed save, the creature takes {@damage 2d12} psychic damage, or half as much damage on a successful save.",
+				"A creature that attempts to walk through the wall must make a Wisdom saving throw. On a failed save, the creature takes {@damage 2d12} psychic damage and fails to pass through the wall. On a successful save, the creature takes half the damage and walks through the wall unhindered.",
+				"The wall is made of magical darkness."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level",
+						"or higher, the damage increases by {@dice 1d12} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Whispering Wind",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You whisper a short message of twenty-five words or less while thinking of a creature with which you are familiar. The creature becomes the target of the spell. You can cause the whisper to be benign or malign. The whisper escapes your mouth as a light breeze that fills a 5-foot square and travels at a pace of 1 mile per minute. If the target is on the same plane of existence as you, the breeze travels the most direct route towards the target until it reaches the target. The breeze can’t move through liquids and areas that are air tight. If the breeze hasn’t reached the target within 24 hours, the breeze dissipates into nothing.",
+				"When the breeze reaches the target, the target feels the breeze and hears your whispered message as a faint voice from all around it. If you sent a malign whisper, the target must also succeed a Wisdom saving throw or take {@damage 1d10} psychic damage and fall {@condition unconscious} for 1 hour. It then becomes immune to your malign whispers for 24 hours. The target wakes early if it takes damage or if another creature takes an action to shake it awake.",
+				"If the target knows you and recognizes your voice, it discerns you to be the sender. If the target has only heard your voice occasionally and deems it familiar, it must succeed a Wisdom (Insight) check against your spell save DC to discern your identity. If the target has never met you or heard you speak, it can’t discern your identity.",
+				"If the target isn’t on the same plane of existence as you when you cast this spell, the breeze travels for up to a mile and then dissipates into nothing."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"damageInflict": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Withering Bolt",
+			"source": "UGPTS",
+			"page": 147,
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of rotting, humanoid flesh"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A tangling mass of rot blasts towards a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 8d10} necrotic damage and must make a Constitution saving throw. On a failed save, the target ages {@dice 1d10 x 10} years, and becomes {@condition poisoned} for 1 minute. While {@condition poisoned} in this manner, the target makes Constitution checks and saving throws with disadvantage. On a successful save, the target ages half as much and doesn’t become {@condition poisoned}.",
+				"Aberrations, constructs and undead are immune to all effects of this spell.",
+				"The aging effect can be reversed with a {@spell greater restoration spell}, but only within 24 hours of it occurring."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"conditionInflict": [
+				"poisoned"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		}
+	]
+}
